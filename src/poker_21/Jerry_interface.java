@@ -40,7 +40,7 @@ public class Jerry_interface {
 				Jerry_interface window = new Jerry_interface();
 				window.Jerry.setVisible(true);
 				PlayMusic p=new PlayMusic();
-
+				System.out.println("一次修改");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
